@@ -1,3 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+    
+body {
+    font-family: 'Nunito', sans-serif;
+}
 .main{
     height: 100vh;
     width: 100vw;
@@ -87,7 +97,8 @@ nav ul li a:hover {
     color: white;
     font-size: 3rem;
     flex-direction: column;
-    line-height: 2rem
+    line-height: 3rem;
+    margin-top: 3vh;
 }
 .content p {
     color: white;
@@ -95,6 +106,7 @@ nav ul li a:hover {
     margin-top: 2vh;
     flex-direction: column;
     text-align: center;
+    margin-top: 2vh;
 }
 .big a{
     width: 100vw;
@@ -113,6 +125,7 @@ nav ul li a:hover {
     border-radius: 2vw;
     background-color:transparent;
     border: 2px solid white;
+    margin-top: 3vh;
 }
 button i{
     margin-left: 0.5vw;
@@ -229,6 +242,17 @@ button i{
         align-items: center;
         line-height: 3rem;
         flex-direction: column;
+        text-align: center;
+        padding: 1vw;
+        
+
+    }
+    .content p{
+        font-size: 1.2rem;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        padding: 2vw;
     }
     img{
         max-width: 100%;
@@ -238,12 +262,29 @@ button i{
         width: 100vw;
         height: auto;
         margin-bottom: 0%;
+        text-align: center;
+        
+
+        
         
         }
     .box h1{
         font-size: 2rem;
         align-items: center;
         flex-direction: column;
+        text-align: center;
+        padding: 2vw;
+        
+    }
+    .box p{
+        font-size: 1.3rem;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 1vh;
+        padding: auto;
+        padding: 2vw;
+        
     }
     .card{
         width: 80vw;
