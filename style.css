@@ -63,7 +63,7 @@ nav ul li a:hover {
     margin-left: 5vw;
     background-color: rgb(131, 2, 148);
     
-    height: 5vh;
+    height: 6vh;
     border-radius: 0.5vw;
      padding: 10px 16px;
   min-width: 130px;
@@ -74,7 +74,7 @@ nav ul li a:hover {
     background-color: rgb(251, 249, 252);
      padding: 10px 16px;
   min-width: 130px;
-    height: 5vh;
+    height: 6vh;
     border-radius: 0.5vw;
     
 }
@@ -88,7 +88,7 @@ nav ul li a:hover {
 .large button a {
     text-decoration: none;
     line-height: 1.5px;
-    color:rgb(177, 28, 197);
+    color:rgb(124, 74, 131);
     font-size: 1rem;
 }
 .content {
@@ -231,6 +231,61 @@ h1, h2, h3, p {
     width: 80vw;     
     height: auto;
 }
+.window{
+    width: 100%;
+    height: auto;
+    background: #000;
+    
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    margin: 20px;
+    
+    
+    
+}
+.screen{
+    color: #fff;
+    
+    font-size: 1.2rem;
+    line-height: 1.5;
+
+    width: 70vw;
+    height: auto;
+    margin: auto;
+}
+.screen button{
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: 2px solid white;
+    border-radius: 50px;
+    background: transparent;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-left: 3vw;
+    
+}
+.screen button a{
+    text-decoration: none;
+    color: white;
+}
+.screen button:hover{
+    background: #a020f0;
+    border-color: #a020f0;
+    transition: 0.3s;
+}
+.circles{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.circles img{
+    
+    flex-direction: column;
+}
 @media (max-width: 780px) {
 
     .nav{
@@ -361,9 +416,59 @@ h1, h2, h3, p {
     flex-direction: column;
 
     
+
     
 }
+.screen p{
+    font-size: 3vw;
 }
+.feature{
+    flex-direction: column;
+    width:100% ;
+   
+    
+}
+.detail{
+    flex-direction: column;
+}
+.third{
+    flex-direction: column;
+}
+.left{
+    width:100% ;
+    
+    
+}
+.q1 h2{
+    font-size:14px ;
+}
+.seventh{
+    flex-direction: column;
+}
+.eigth{
+    flex-direction: column;
+}
+.area{
+    border: 2px solid grey;
+    
+}
+.area h3{
+    margin-left: 2%;
+    margin-top: 2%;
+}
+.area p{
+    margin-left: 2%;
+    margin-bottom: 2%;
+}
+
+
+
+
+
+    
+
+}
+
 .footer{
   background:#000000;
   color:#fff;
@@ -371,6 +476,9 @@ h1, h2, h3, p {
   padding:40px 20px;
   border-top:1px solid #444;
   margin-top:40px;
+  
+  
+  
 }
 
 .footer h2{
@@ -405,6 +513,299 @@ h1, h2, h3, p {
   font-size:0.9rem;
   opacity:0.7;
 }
+ .screen{
+    width: 80vw;
+    height: 50%;
+    font-size: 1rem;
+}
+.question{
+    color: white;
+    margin-top: 1vh;
+    text-align: center;
+    width: 80%;
+    height: auto   ;
+    
+    margin-bottom: 5%;
+    padding-bottom: 2%;
+     
+}
+.title h1{
+    font-size: 2rem;
+    line-height: 1.5;
+}
+.q1{
+    margin-top: 2vh;
+    text-align: left;
+    padding: 0 2vw;
+    
+
+}
+.a1{
+    margin-top: 1vh;
+    text-align: left;
+    padding: 0 2vw;
+
+}
+body{
+   margin:0;
+   padding:0;
+   box-sizing:border-box;
+   overflow-x:hidden;
+}
+.icon{
+    
+    border: 2px solid white;
+    display: flex;
+    justify-content: space-around;
+}
+.faq{
+    background-color: #121212;
+    width: 60vw;
+    
+    margin: auto;
+    
+    
+    
+    cursor: pointer;
+}
+.q1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.faq .a1{
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+    color: #bbb;
+}
+.faq.active .a1{
+    max-height: 200px;
+    margin-top: 10px;
+}
+.information{
+  width: 100%;
+  background: linear-gradient(90deg, #020411, #5a5757, #000000);
+  padding: 50px 0;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+.detail,
+.third{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+  padding: 25px;
+  border-radius: 12px;
+  background:#000; 
+}
+.fifth{
+    width:100% ;
+    
+    
+    display: flex;
+    justify-content: center;
+    background-color: #000;
+    
+
+}
+.sixth{
+    width: 80%;
+    
+    margin-top: 2%;
+    
+    
+}
+.sixth h1{
+color: #8b8989;
+font-family:Arial, Helvetica, sans-serif;
+margin-left: 5%;
+}
+.sixth span{
+    color: white;
+}
+.area{
+    
+    margin-left: 5%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin-right: 5%;
+    
+}
+.area h3{
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.area p{
+    color: #706f6f;
+    font-size: 13px;
+    margin-top: 5%;
+}
+.seventh{
+    
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+}
+.eight{
+    
+    display: flex;
+    justify-content: space-evenly;
+}
+.up h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.left h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.q1 h2{
+    font-family:Arial, Helvetica, sans-serif;
+}
+    
+    
+    
+
+     
+
+
+    
+    
+    
+    
+
+
+    
+
+.left,
+.up{
+  flex: 1;
+  text-align: left;
+}
+
+.right,
+.down{
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+     
+
+
+
+.feature{
+
+
+  width: 90%;
+  max-width: 1100px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+
+.right img,
+.down img{
+  width: 100%;
+  max-width: 450px;
+  border-radius: 12px;
+  object-fit: cover;
+}
+.left h4{
+ color: #5b0491;
+}
+.up h4{
+    color: #5b0491;
+}
+.left p{
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.up p{
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+.up li{
+    font-size: 14px;
+}
+.left li{
+    font-size: 14px;
+}
+
+    
+
+label{
+  display:block;
+  margin:10px 0 5px;
+  font-size:14px;
+}
+
+input, textarea{
+  width:100%;
+  padding:10px;
+  border:1px solid #ccc;
+  border-radius:5px;
+}
+.last{
+    width: 50%;
+    text-align: left;
+    margin: auto;
+    /* border: 2px solid grey; */
+    padding: 2%;
+    /* border: 2px solid rgb(117, 113, 113); */
+    box-shadow: 2px 2px 10px gray;
+    
+}
+.last button{
+    width: 50%;
+    margin-left: 25%;
+    height: 30px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    background-color:#a020f0;
+    color: white;
+    margin-top: 5%;
+
+    
+    
+}
+.last button:hover{
+    background: black;
+}
+.top {
+    margin-left:90%;
+    font-size: 30px;
+    cursor: pointer;
+    position: sticky;
+    bottom: 10px;
+    
+    
+    
+    
+      
+      
+}
+.top.active{
+    display: block;
+    pointer-events: auto;
+    
+    
+
+}
+html{
+    scroll-behavior: smooth;
+}
+
+
+    
+
+
+
 
 
    
