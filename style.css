@@ -460,6 +460,42 @@ h1, h2, h3, p {
     margin-left: 2%;
     margin-bottom: 2%;
 }
+.signup{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+
+}
+.live{
+    width: 100%;
+    
+    
+}
+.kanika{
+    width: 100%;
+}
+.terms{
+    width:20%;
+}
+.add form label {
+    font-size: 18px;
+}
+   
+.create img{
+    display: none;
+    
+}
+.create{
+    display: none;
+}
+
+
+
+
+
 
 
 
@@ -745,11 +781,24 @@ label{
   font-size:14px;
 }
 
-input, textarea{
+ .last input, textarea{
   width:100%;
   padding:10px;
   border:1px solid #ccc;
   border-radius:5px;
+  margin: 8px;
+}
+.add input, textarea{
+  width:80%;
+  padding:10px;
+  border:1px solid #ccc;
+  border-radius:5px;
+  margin: 8px;
+}
+.terms input, textarea{
+ width: 5%;
+ padding: 0px;
+ margin: 0px;
 }
 .last{
     width: 50%;
@@ -800,6 +849,123 @@ input, textarea{
 html{
     scroll-behavior: smooth;
 }
+.kanika{
+    width: 100%;
+    max-width: 100%;
+    /* height: 100%; */
+    /* border:2px solid red ; */
+    display: flex;
+    justify-content: center;
+    background: black;
+}
+.signup{
+    width: 900px;
+    height: 100%; 
+    /* border:2px solid black; */
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(90deg, #020411, #5a5757, #000000);;
+
+
+}
+.live{
+     width:100%;
+
+    height: 500px;
+    background-color: linear-gradient(90deg, #020411, #5a5757, #000000);;
+    /* border: 2px solid rgb(6, 4, 102); */
+    margin: 15px;
+
+ 
+}
+.create{
+    width: 100%;
+    height: auto;
+    /* border: 2px solid rgb(250, 192, 4); */
+    margin: 15px;
+}
+.head{
+    width: 100px;
+    height: 50px;
+    /* border: 2px solid red; */
+    margin:10px 15px;
+    color: white;
+}
+.account{
+    width:80% ;
+    height: auto;
+    /* border: 2px solid black; */
+    margin-left: 15px;
+    line-height: 30px;
+    color: white;
+
+}
+.account p{
+    color: #c0b4b4;
+}
+.add{
+    width: 90%;
+    height: 300px;
+    /* border: 2px solid grey; */
+    margin:15px 15px;
+
+}
+.add label{
+    margin-left: 10px;
+    color:  #c0b4b4;;
+}
+.checkbox{
+    margin: none;
+    padding: none;
+    
+}
+.terms{
+    display: flex;
+    justify-content:start;
+    align-items:start ;
+    text-align:start;
+    width: 100%;
+    
+    /* border: 2px solid black; */
+    margin: 0;
+    padding: 0;
+    
+}
+.agree{
+    /* border: 2PX SOLID red; */
+    font-size: 12px;
+    margin: 5px;
+    line-height: 2px;
+    color: white;
+
+}
+.successfull{
+    width: 80%;
+    /* border: 2px solid black; */
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.successfull button{
+    width: 100%;
+    height: 30px;
+    border-radius: 5px ;
+    background-color: #a020f0;
+    color: white;
+}
+.create img{
+    width: 100%;
+    height: 500px;
+}
+.add form label {
+    font-size: 18px;
+}
+.head{
+    font-size: 35px;
+}
+
+
+
 
 
     
